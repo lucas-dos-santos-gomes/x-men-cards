@@ -19,7 +19,6 @@ for(const c of characters) {
       c.classList.add("selected");
     }
   }
-
   c.onclick = scrollTop;
   c.ontouchstart = scrollTop;
 }
