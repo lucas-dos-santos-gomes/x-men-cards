@@ -75,6 +75,7 @@ body {
 
 .characters .character-list .character img {
   border-bottom: 5px solid #47F4FF;
+  height: 100%;
 }
 
 .characters .character-list .character.selected {
