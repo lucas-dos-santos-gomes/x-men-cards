@@ -125,6 +125,10 @@ body {
     max-width: 430px;
   }
 
+  .character {
+    cursor: pointer;
+  }
+
   @media screen and (max-width: 590px) {
     .characters .character-list {
       gap: 10px;

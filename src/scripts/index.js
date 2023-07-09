@@ -1,6 +1,13 @@
 const characters = document.querySelectorAll(".character");
 const focusedCharacter = document.querySelector(".focused-character");
 
+function scrollTop() {
+  window.scroll({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
 for(const c of characters) {
   c.onmouseover = () => {
     const selectedCharacter = document.querySelector(".selected");
@@ -10,4 +17,7 @@ for(const c of characters) {
     }
     focusedCharacter.src = `./src/assets/card-${c.id}.png`;
   }
+
+  c.onclick = scrollTop;
+  c.ontouchstart = scrollTop;
 }
