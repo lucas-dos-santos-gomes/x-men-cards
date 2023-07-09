@@ -1,8 +1,34 @@
 body {
   font-family: 'Oxanium', cursive;
   background-image: url(../assets/bg-desktop.jpg);
-  color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
   width: 100%;
   height: 100vh;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+.header img {
+  height: 90%;
+}
+
+.character-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.character-selection .character-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
