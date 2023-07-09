@@ -1,3 +1,17 @@
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #47F4FF;
+  border-radius: 20px;
+  border: 3px solid #000;
+}
+
 body {
   font-family: 'Oxanium', cursive;
   background-image: url(../assets/bg-desktop.jpg);
@@ -27,7 +41,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 70px;
   padding-inline: 20px;
   min-height: calc(100vh - 100px);
 }
@@ -56,6 +71,10 @@ body {
 
 .characters .character-list .character {
   transition: .3s;
+}
+
+.characters .character-list .character img {
+  border-bottom: 5px solid #47F4FF;
 }
 
 .characters .character-list .character.selected {
@@ -96,6 +115,28 @@ body {
 
 @media screen and (max-width: 750px) {
   .character-selection {
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .selected-character {
+    min-width: initial;
+    width: 100%;
+    max-width: 430px;
+  }
+
+  @media screen and (max-width: 590px) {
+    .characters .character-list {
+      gap: 10px;
+    }
+  
+    .character img {
+      width: 100px;
+    }
+    
+    @media screen and (max-width: 320px) {
+      .character-selection {
+        padding-inline: 10px;
+      }
+    }
   }
 }
