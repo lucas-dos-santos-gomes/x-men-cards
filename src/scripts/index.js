@@ -23,15 +23,23 @@ function scrollTop() {
 
 for(const c of characters) {
   c.onmouseover = () => {
-    focusedCharacter.src = `./src/assets/card-${c.id}.png`;
-    characterName.innerHTML = c.id.replace("-", " ");
-    characterDescription.innerHTML = descriptions[c.id.replace("-", "")];
-    const selectedCharacter = document.querySelector(".selected");
-    if(selectedCharacter != c) {
-      selectedCharacter.classList.remove("selected");
-      c.classList.add("selected");
-    }
+    changeCharacter(c);
+    hoverCard(c);
   }
   c.onclick = scrollTop;
   c.ontouchstart = scrollTop;
+}
+
+function changeCharacter(character) {
+  focusedCharacter.src = `./src/assets/card-${character.id}.png`;
+  characterName.innerHTML = character.id.replace("-", " ");
+  characterDescription.innerHTML = descriptions[character.id.replace("-", "")];
+}
+
+function hoverCard(character) {
+  const selectedCharacter = document.querySelector(".selected");
+  if(selectedCharacter != character) {
+    selectedCharacter.classList.remove("selected");
+    character.classList.add("selected");
+  }
 }
