@@ -47,3 +47,11 @@ body {
   flex-wrap: wrap;
   gap: 20px;
 }
+
+.characters .character-list .character {
+  transition: .2s;
+}
+
+.characters .character-list .character:hover {
+  box-shadow: 0px 0px 24px 5px #0271F7;
+}
