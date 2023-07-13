@@ -16,4 +16,21 @@ Esse projeto foi construído com HTML, CSS e JavaScript, além de ter seu protó
 
 ## Future Ideas
 
-Para futuramente, pretendo criar um menu de opções de séries, filmes, animes, desenhos e etc, sendo bem mais completo, com o menu tendo bastante opções. Pretendo fazer implantar essa ideia com React.js, treinando o conceito de componentização e reutilziação de código. Para mais longe ainda, posso criar um sistema onde novas páginas poderiam ser criadas pelo usuário, deixando o projeto bem mais completo, com um banco de dados e conexão Front e Back-end. 
+Para futuramente, pretendo criar um menu de opções de séries, filmes, animes, desenhos e etc, sendo bem mais completo, com o menu tendo bastante opções. Pretendo fazer implantar essa ideia com React.js, treinando o conceito de componentização e reutilziação de código. Para mais longe ainda, posso criar um sistema onde novas páginas poderiam ser criadas pelo usuário, deixando o projeto bem mais completo, com um banco de dados e conexão Front e Back-end.
+
+## Links
+
+Todos os links referentes ao projeto:
+
+- [Figma](https://www.figma.com/file/XbKoPeSGujWQmE8ywLhru0/x-men-cards?type=design&node-id=1%3A177&mode=design&t=UHTEQp1vNYlrM3LV-1)
+- [Repositório](https://github.com/lucas-dos-santos-gomes/x-men-cards)
+- [Site](https://lucas-dos-santos-gomes.github.io/x-men-cards/)
+
+<br>
+
+. <br>
+. <br>
+. <br><br>
+
+> <p> Me siga nas redes sociais e favorite esse projeto. <br>
+> Obrigado pela sua visita! </p>
