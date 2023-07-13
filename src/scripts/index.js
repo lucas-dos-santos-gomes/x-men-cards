@@ -20,6 +20,11 @@ function scrollTop() {
       top: 0,
       behavior: "smooth"
     });
+  } else {
+    window.scrollTo({
+      top: focusedCharacter.offsetTop,
+      behavior: "smooth"
+    });
   }
 }
 
