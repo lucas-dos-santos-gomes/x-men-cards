@@ -9,3 +9,7 @@
 <div align="center">
   <img src="https://media.discordapp.net/attachments/1118536614403121212/1125820267625717840/x-men-desktop.png?width=685&height=428" alt="Protótipo do projeto" />
 </div>
+
+## Features
+
+Esse projeto foi construído com HTML, CSS e JavaScript, além de ter seu protótipo desenhado no Figma. Você pode fazer a troca dos personagens apenas passando o mouse em cima do personagem selecionado. No caso de dispositivos móveis, basta clicar no card do personagem. O layout está 100% responsivo.
