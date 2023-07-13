@@ -13,3 +13,7 @@
 ## Features
 
 Esse projeto foi construído com HTML, CSS e JavaScript, além de ter seu protótipo desenhado no Figma. Você pode fazer a troca dos personagens apenas passando o mouse em cima do personagem selecionado. No caso de dispositivos móveis, basta clicar no card do personagem. O layout está 100% responsivo.
+
+## Future Ideas
+
+Para futuramente, pretendo criar um menu de opções de séries, filmes, animes, desenhos e etc, sendo bem mais completo, com o menu tendo bastante opções. Pretendo fazer implantar essa ideia com React.js, treinando o conceito de componentização e reutilziação de código. Para mais longe ainda, posso criar um sistema onde novas páginas poderiam ser criadas pelo usuário, deixando o projeto bem mais completo, com um banco de dados e conexão Front e Back-end. 
