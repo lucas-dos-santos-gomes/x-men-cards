@@ -15,17 +15,10 @@ const descriptions = {
 }
 
 function scrollTop() {
-  if(window.innerWidth <= 750) {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  } else {
-    window.scrollTo({
-      top: focusedCharacter.offsetTop,
-      behavior: "smooth"
-    });
-  }
+  window.scrollTo({
+    top: ((window.innerWidth <= 750) || focusedCharacter.offsetTop) - 1,
+    behavior: "smooth"
+  });
 }
 
 for(const c of characters) {
