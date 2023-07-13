@@ -18,6 +18,9 @@ Esse projeto foi construído com HTML, CSS e JavaScript, além de ter seu protó
 
 Para futuramente, pretendo criar um menu de opções de séries, filmes, animes, desenhos e etc, sendo bem mais completo, com o menu tendo bastante opções. Pretendo fazer implantar essa ideia com React.js, treinando o conceito de componentização e reutilziação de código. Para mais longe ainda, posso criar um sistema onde novas páginas poderiam ser criadas pelo usuário, deixando o projeto bem mais completo, com um banco de dados e conexão Front e Back-end.
 
+## Authors
+- **Lucas dos Santos Gomes**
+
 ## Links
 
 Todos os links referentes ao projeto:
